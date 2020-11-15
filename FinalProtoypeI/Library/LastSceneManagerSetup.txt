@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/All Scenes/ARCamera.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
