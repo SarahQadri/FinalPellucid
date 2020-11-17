@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/All Scenes/LanguageSelect.unity
+- path: Assets/All Scenes/Tools_French.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
