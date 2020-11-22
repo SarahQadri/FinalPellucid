@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
