@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
@@ -35,5 +35,11 @@ public class ChangeScene : MonoBehaviour
         UnityEngine.Debug.Log("FrenchAnnotate" + 4);
         SceneManager.LoadScene(4);
     }
+    public void Open()
+    {
+        UnityEngine.Debug.Log("OpenNew" + 6);
+        SceneManager.LoadScene(6);
+    }
+
 
 }
