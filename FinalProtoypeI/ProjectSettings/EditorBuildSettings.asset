@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/All Scenes/Annotate.unity
     guid: 8d6885873e2897f40ae912ec83e31ac4
   - enabled: 1
-    path: Assets/All Scenes/ARCamera.unity
+    path: Assets/All Scenes/OldARCamera.unity
     guid: 743f9aa4b85da9b4db11b3440abc9188
   m_configObjects: {}

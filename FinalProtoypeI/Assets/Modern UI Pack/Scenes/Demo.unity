@@ -627,10 +627,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -200}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &35223007
 MonoBehaviour:
@@ -830,7 +830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.00012207031}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &41024451
@@ -1005,6 +1005,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -1034,9 +1039,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &48404551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1635,10 +1637,19 @@ MonoBehaviour:
   normalText: {fileID: 2053914834}
   highlightedText: {fileID: 2053914834}
   soundSource: {fileID: 0}
+  rippleParent: {fileID: 0}
   useCustomContent: 0
   enableButtonSounds: 0
   useHoverSound: 1
   useClickSound: 1
+  useRipple: 1
+  rippleShape: {fileID: 0}
+  speed: 1
+  maxSize: 4
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  transitionColor: {r: 1, g: 1, b: 1, a: 1}
+  renderOnTop: 0
+  centered: 0
 --- !u!222 &53642272
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1928,6 +1939,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -1957,9 +1973,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &67307036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2067,6 +2080,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.28025985, g: 0.59712946, b: 0.8867924, a: 1}
@@ -2096,9 +2114,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &68422404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2506,6 +2521,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -2535,9 +2555,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!1 &80326036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,10 +2593,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: 0}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &80326038
 MonoBehaviour:
@@ -2781,6 +2798,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -2810,9 +2832,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &86032086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3156,6 +3175,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -3185,9 +3209,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &89227070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3647,12 +3668,12 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -3662,7 +3683,7 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -3818,10 +3839,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -75}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &94749638
 MonoBehaviour:
@@ -4053,17 +4074,17 @@ PrefabInstance:
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
@@ -6424,6 +6445,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -6453,9 +6479,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &141976285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7002,12 +7025,12 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -7022,7 +7045,7 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -7178,7 +7201,7 @@ Canvas:
   m_GameObject: {fileID: 159023077}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 152618870}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -7256,10 +7279,10 @@ RectTransform:
   m_Father: {fileID: 2062379755}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -478.38882}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &161775270
 MonoBehaviour:
@@ -7541,12 +7564,12 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -7561,7 +7584,7 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -7862,10 +7885,19 @@ MonoBehaviour:
   normalText: {fileID: 1787918872}
   highlightedText: {fileID: 1787918872}
   soundSource: {fileID: 0}
+  rippleParent: {fileID: 0}
   useCustomContent: 0
   enableButtonSounds: 0
   useHoverSound: 1
   useClickSound: 1
+  useRipple: 1
+  rippleShape: {fileID: 0}
+  speed: 1
+  maxSize: 4
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  transitionColor: {r: 1, g: 1, b: 1, a: 1}
+  renderOnTop: 0
+  centered: 0
 --- !u!222 &169548222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8011,6 +8043,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -8040,9 +8077,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &178788876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8398,6 +8432,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.28025985, g: 0.59712946, b: 0.8867924, a: 1}
@@ -8427,9 +8466,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &184670823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8642,6 +8678,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -8671,9 +8712,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &194158359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8902,10 +8940,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -225}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200615871
 MonoBehaviour:
@@ -9764,6 +9802,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -9793,9 +9836,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &218294997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9904,6 +9944,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -9933,9 +9978,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &218758203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12393,7 +12435,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1452014496}
   m_Direction: 2
   m_Value: 0.9999999
-  m_Size: 0.77754796
+  m_Size: 0.7794953
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15307,6 +15349,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -15336,9 +15383,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &387700583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15446,10 +15490,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -150}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387860021
 MonoBehaviour:
@@ -16042,6 +16086,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -16071,9 +16120,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &396053945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16182,6 +16228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -16211,9 +16262,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &398203046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16426,6 +16474,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.8207547, g: 0.26713243, b: 0.5110256, a: 1}
@@ -16455,9 +16508,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &406311927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16628,6 +16678,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -16657,9 +16712,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &408484606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17211,6 +17263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -17240,9 +17297,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!1 &422187448
 GameObject:
   m_ObjectHideFlags: 0
@@ -17728,7 +17782,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -18607,6 +18661,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -18636,9 +18695,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &449539133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19450,6 +19506,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -19479,9 +19540,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &473587112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20153,7 +20211,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 827542024}
   m_Direction: 2
   m_Value: 1.0000001
-  m_Size: 0.38418776
+  m_Size: 0.3850436
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -20237,6 +20295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.3254902, g: 0.54901963, b: 0.83137256, a: 1}
@@ -20266,9 +20329,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &498905902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20346,10 +20406,10 @@ RectTransform:
   m_Father: {fileID: 727597395}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -25}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &502713720
 MonoBehaviour:
@@ -20662,12 +20722,12 @@ PrefabInstance:
     - target: {fileID: 224944280527992520, guid: 72b132e96d4c8c74fb223d675142eaf3,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224944280527992520, guid: 72b132e96d4c8c74fb223d675142eaf3,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224944280527992520, guid: 72b132e96d4c8c74fb223d675142eaf3,
         type: 3}
@@ -20677,7 +20737,7 @@ PrefabInstance:
     - target: {fileID: 224944280527992520, guid: 72b132e96d4c8c74fb223d675142eaf3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 224944280527992520, guid: 72b132e96d4c8c74fb223d675142eaf3,
         type: 3}
@@ -21819,6 +21879,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -21848,9 +21913,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &535458620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21974,7 +22036,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -22413,6 +22475,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -22442,9 +22509,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &559482016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22532,6 +22596,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -22561,9 +22630,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &561311000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22652,6 +22718,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -22681,9 +22752,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &562069122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23433,7 +23501,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -23626,6 +23694,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -23655,9 +23728,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &585316149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24097,7 +24167,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -25111,17 +25181,17 @@ PrefabInstance:
     - target: {fileID: 224562823260510934, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224562823260510934, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224562823260510934, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -13.5
       objectReference: {fileID: 0}
     - target: {fileID: 224562823260510934, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
@@ -25181,7 +25251,7 @@ PrefabInstance:
     - target: {fileID: 224908948343923336, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224908948343923336, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
@@ -25241,17 +25311,17 @@ PrefabInstance:
     - target: {fileID: 224978018433022574, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224978018433022574, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224978018433022574, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -41.955
       objectReference: {fileID: 0}
     - target: {fileID: 224978018433022574, guid: c5e2dc3d9dda6b44189132bc2fbee2b3,
         type: 3}
@@ -25465,12 +25535,12 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -25485,7 +25555,7 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -25550,6 +25620,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.31585974, g: 0.39560455, b: 0.735849, a: 1}
@@ -25579,9 +25654,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &609710934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25658,10 +25730,10 @@ RectTransform:
   m_Father: {fileID: 2062379755}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -453.38882}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &612061936
 MonoBehaviour:
@@ -26753,7 +26825,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -26959,6 +27031,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -26988,9 +27065,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &645236774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27673,6 +27747,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -27702,9 +27781,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &677121405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27813,6 +27889,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -27842,9 +27923,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &680536712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28682,7 +28760,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -29310,10 +29388,19 @@ MonoBehaviour:
   normalText: {fileID: 853879486}
   highlightedText: {fileID: 853879486}
   soundSource: {fileID: 0}
+  rippleParent: {fileID: 0}
   useCustomContent: 0
   enableButtonSounds: 0
   useHoverSound: 1
   useClickSound: 1
+  useRipple: 1
+  rippleShape: {fileID: 0}
+  speed: 1
+  maxSize: 4
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  transitionColor: {r: 1, g: 1, b: 1, a: 1}
+  renderOnTop: 0
+  centered: 0
 --- !u!222 &698887211
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29641,10 +29728,10 @@ RectTransform:
   m_Father: {fileID: 2062379755}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -428.38882}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700748994
 MonoBehaviour:
@@ -29773,6 +29860,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -29802,9 +29894,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &701600572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30017,6 +30106,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -30046,9 +30140,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &708868071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30261,6 +30352,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -30290,9 +30386,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &719488816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30577,6 +30670,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -30606,9 +30704,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &725479324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32888,10 +32983,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -250}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797380785
 MonoBehaviour:
@@ -33212,6 +33307,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -33241,9 +33341,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &813415002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33911,7 +34008,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -34030,6 +34127,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -34059,9 +34161,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &826136843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34186,6 +34285,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -34215,9 +34319,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!1 &830035016
 GameObject:
   m_ObjectHideFlags: 0
@@ -34301,6 +34402,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -34330,9 +34436,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &830035021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34624,6 +34727,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -34653,9 +34761,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &841886548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35355,10 +35460,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -175}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &853662257
 MonoBehaviour:
@@ -37214,12 +37319,12 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -37229,7 +37334,7 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -38029,6 +38134,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -38058,9 +38168,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &927728371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38249,6 +38356,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -38278,9 +38390,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &941863217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38800,10 +38909,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -125}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &974393999
 MonoBehaviour:
@@ -39402,12 +39511,12 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -39417,7 +39526,7 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -39698,6 +39807,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -39727,9 +39841,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &997403569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39837,6 +39948,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.31585974, g: 0.39560455, b: 0.735849, a: 1}
@@ -39866,9 +39982,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1001552670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40758,10 +40871,10 @@ RectTransform:
   m_Father: {fileID: 2062379755}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -503.38882}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035463520
 MonoBehaviour:
@@ -41068,6 +41181,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -41097,9 +41215,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1039696381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41282,6 +41397,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -41311,9 +41431,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1046439767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41715,6 +41832,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -41744,9 +41866,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1066639162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41854,6 +41973,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.25490198, g: 0.74509805, b: 0.49019608, a: 1}
@@ -41883,9 +42007,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1069912580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42216,10 +42337,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -50}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081442007
 MonoBehaviour:
@@ -42772,6 +42893,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -42801,9 +42927,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1091243947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43368,6 +43491,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -43397,9 +43525,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1103191443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43732,6 +43857,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -43761,9 +43891,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1119988016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43887,7 +44014,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -44050,17 +44177,17 @@ PrefabInstance:
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
@@ -44683,6 +44810,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -44712,9 +44844,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1133101828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44792,8 +44921,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1135640428
 MonoBehaviour:
@@ -45813,7 +45942,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -46161,10 +46290,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -25}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161652557
 MonoBehaviour:
@@ -46842,7 +46971,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -47122,6 +47251,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -47151,9 +47285,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1209540793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47485,6 +47616,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.3254902, g: 0.54901963, b: 0.83137256, a: 1}
@@ -47514,9 +47650,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1216994411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47620,7 +47753,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -47740,6 +47873,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -47769,9 +47907,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1220120237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49118,6 +49253,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -49147,9 +49287,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!225 &1276574647
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -49250,6 +49387,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -49279,9 +49421,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1281860152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49976,6 +50115,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -50005,9 +50149,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1302300864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50221,6 +50362,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -50250,9 +50396,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1326684544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51429,6 +51572,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -51458,9 +51606,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1358718733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52229,8 +52374,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378127434
 MonoBehaviour:
@@ -52433,6 +52578,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -52462,9 +52612,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1383839387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52874,6 +53021,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -52903,9 +53055,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1397482459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54471,6 +54620,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -54500,9 +54654,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1444232744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55689,10 +55840,10 @@ RectTransform:
   m_Father: {fileID: 1999375585}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -100}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474855213
 MonoBehaviour:
@@ -57388,7 +57539,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -57581,6 +57732,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -57610,9 +57766,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1524692447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58100,6 +58253,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114840927521405518, guid: 656e81c1467148042962149a5f168b50,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224692036432462928, guid: 656e81c1467148042962149a5f168b50,
         type: 3}
@@ -58832,6 +58990,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -58861,9 +59024,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1553465553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59077,6 +59237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -59106,9 +59271,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1557755020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59217,6 +59379,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -59246,9 +59413,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1562218889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59688,12 +59852,12 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -59703,7 +59867,7 @@ PrefabInstance:
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224140982003034070, guid: 61db1f75e1a0bc84a9e6e1cffcd47b99,
         type: 3}
@@ -60298,6 +60462,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -60327,9 +60496,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1586860238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62353,6 +62519,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -62382,9 +62553,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1640697013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62875,6 +63043,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -62904,9 +63077,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!222 &1649100368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -65163,6 +65333,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -65192,9 +65367,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1698987800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65589,7 +65761,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -65774,6 +65946,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -65803,9 +65980,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1718382510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65968,6 +66142,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -65997,9 +66176,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1722951458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66282,7 +66458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84a94b099bc62645a689ebb5655db16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonAnimator: {fileID: 580103312}
+  buttonAnimator: {fileID: 1726908274}
 --- !u!95 &1726908274
 Animator:
   serializedVersion: 3
@@ -66295,7 +66471,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -66500,6 +66676,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -66529,9 +66710,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1729555905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67872,10 +68050,19 @@ MonoBehaviour:
   normalText: {fileID: 596323923}
   highlightedText: {fileID: 596323923}
   soundSource: {fileID: 0}
+  rippleParent: {fileID: 0}
   useCustomContent: 0
   enableButtonSounds: 0
   useHoverSound: 1
   useClickSound: 1
+  useRipple: 1
+  rippleShape: {fileID: 0}
+  speed: 1
+  maxSize: 4
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  transitionColor: {r: 1, g: 1, b: 1, a: 1}
+  renderOnTop: 0
+  centered: 0
 --- !u!222 &1758088827
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -68659,6 +68846,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -68688,9 +68880,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1780900939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69878,10 +70067,19 @@ MonoBehaviour:
   normalText: {fileID: 2091363770}
   highlightedText: {fileID: 2091363770}
   soundSource: {fileID: 0}
+  rippleParent: {fileID: 0}
   useCustomContent: 0
   enableButtonSounds: 0
   useHoverSound: 1
   useClickSound: 1
+  useRipple: 1
+  rippleShape: {fileID: 0}
+  speed: 1
+  maxSize: 4
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  transitionColor: {r: 1, g: 1, b: 1, a: 1}
+  renderOnTop: 0
+  centered: 0
 --- !u!222 &1811535658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -70174,12 +70372,12 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -70194,7 +70392,7 @@ PrefabInstance:
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224850890329217882, guid: 46c25b00d174c7e469f9ac0e0f8308cc,
         type: 3}
@@ -70394,17 +70592,17 @@ PrefabInstance:
     - target: {fileID: 224086071809384054, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224086071809384054, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224086071809384054, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 224086071809384054, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
@@ -70439,22 +70637,22 @@ PrefabInstance:
     - target: {fileID: 224413972544493284, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1030.7067
+      value: 1029.8201
       objectReference: {fileID: 0}
     - target: {fileID: 224413972544493284, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224413972544493284, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224413972544493284, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -468.38882
       objectReference: {fileID: 0}
     - target: {fileID: 224413972544493284, guid: bdb8f55c79de3ce429e354b19dc74938,
         type: 3}
@@ -71368,6 +71566,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -71397,9 +71600,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1847984148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72802,10 +73002,10 @@ RectTransform:
   m_Father: {fileID: 2062379755}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 779.82007, y: -403.38882}
+  m_SizeDelta: {x: 1559.6401, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889132643
 MonoBehaviour:
@@ -73634,6 +73834,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -73663,9 +73868,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1905531862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73913,6 +74115,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.25490198, g: 0.74509805, b: 0.49019608, a: 1}
@@ -73942,9 +74149,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1909907409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74033,6 +74237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -74062,9 +74271,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1910401026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74173,6 +74379,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -74202,9 +74413,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1911031043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74306,8 +74514,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 780.70667, y: 0}
-  m_SizeDelta: {x: 1561.4133, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914033428
 MonoBehaviour:
@@ -74480,6 +74688,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -74509,9 +74722,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1916928527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75325,6 +75535,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -75354,9 +75569,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1941394755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75909,6 +76121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.8207547, g: 0.26713243, b: 0.5110256, a: 1}
@@ -75938,9 +76155,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1956122235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76029,6 +76243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -76058,9 +76277,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1957009647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76561,8 +76777,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1649100369}
   m_HandleRect: {fileID: 1649100366}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.46493426
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -76647,6 +76863,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -76676,9 +76897,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &1967687964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76881,7 +77099,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7548d0d4fe4626445855a0fd93a2961c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -77105,17 +77323,17 @@ PrefabInstance:
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
@@ -77754,10 +77972,19 @@ MonoBehaviour:
   normalText: {fileID: 594271476}
   highlightedText: {fileID: 594271476}
   soundSource: {fileID: 0}
+  rippleParent: {fileID: 0}
   useCustomContent: 0
   enableButtonSounds: 0
   useHoverSound: 1
   useClickSound: 1
+  useRipple: 1
+  rippleShape: {fileID: 0}
+  speed: 1
+  maxSize: 4
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  transitionColor: {r: 1, g: 1, b: 1, a: 1}
+  renderOnTop: 0
+  centered: 0
 --- !u!222 &1990316082
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -79868,6 +80095,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 0
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -79897,9 +80129,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 0
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &2035846816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81781,6 +82010,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -81810,9 +82044,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &2078481173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82256,6 +82487,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -82285,9 +82521,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &2095121755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82951,6 +83184,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9d2f9067277ade4e9b47012ea4d9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gradientType: 1
+  _blendMode: 2
+  _modifyVertices: 1
+  _offset: 0
+  _zoom: 1
   _effectGradient:
     serializedVersion: 2
     key0: {r: 0.6886792, g: 0.31510323, b: 0.66615653, a: 1}
@@ -82980,9 +83218,6 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _gradientType: 1
-  _blendMode: 2
-  _offset: 0
 --- !u!114 &2106963817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83269,17 +83504,17 @@ PrefabInstance:
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 224351876670727240, guid: 460c5f7def2d0894692d5afd37d6eb19,
         type: 3}
@@ -83604,22 +83839,22 @@ PrefabInstance:
     - target: {fileID: 224032172690680408, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224032172690680408, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224032172690680408, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 106.598755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224032172690680408, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224066003132283726, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
@@ -83714,212 +83949,202 @@ PrefabInstance:
     - target: {fileID: 224096504447916928, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224096504447916928, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224096504447916928, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 223.59875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224096504447916928, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224106688077612320, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224106688077612320, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224106688077612320, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 106.598755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224106688077612320, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224158131588331482, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224158131588331482, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224158131588331482, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 106.598755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224158131588331482, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224178068276006456, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224178068276006456, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224178068276006456, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 223.59875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224178068276006456, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224235998846642004, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224235998846642004, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224235998846642004, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 223.59875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224235998846642004, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224243059012567306, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224243059012567306, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224243059012567306, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 106.598755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224243059012567306, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224269049617714694, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224269049617714694, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224269049617714694, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 94.598755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224269049617714694, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224274112262766646, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224274112262766646, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224274112262766646, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 223.59875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224274112262766646, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224366276085569172, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224366276085569172, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224366276085569172, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 106.598755
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224366276085569172, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224503503609603322, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224503503609603322, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224503503609603322, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 223.59875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224503503609603322, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
-      objectReference: {fileID: 0}
-    - target: {fileID: 224503503609603322, guid: 564de7c2d2a810042a83a7dc2df23971,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 224503503609603322, guid: 564de7c2d2a810042a83a7dc2df23971,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224562088687004476, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
@@ -83974,22 +84199,22 @@ PrefabInstance:
     - target: {fileID: 224847388582121072, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224847388582121072, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224847388582121072, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 223.59875
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224847388582121072, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224960934954153628, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}

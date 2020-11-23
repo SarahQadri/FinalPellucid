@@ -73,6 +73,7 @@ namespace Michsky.UI.ModernUIPack
             // Property variables
             var currentPercent = serializedObject.FindProperty("currentPercent");
             var speed = serializedObject.FindProperty("speed");
+            var maxValue = serializedObject.FindProperty("maxValue");
 
             var loadingBar = serializedObject.FindProperty("loadingBar");
             var textPercent = serializedObject.FindProperty("textPercent");
@@ -92,7 +93,7 @@ namespace Michsky.UI.ModernUIPack
                     GUILayout.BeginHorizontal(EditorStyles.helpBox);
 
                     EditorGUILayout.LabelField(new GUIContent("Current Percent"), customSkin.FindStyle("Text"), GUILayout.Width(120));
-                    EditorGUILayout.PropertyField(currentPercent, new GUIContent(""));
+                    pbTarget.currentPercent = EditorGUILayout.Slider(pbTarget.currentPercent, 0, pbTarget.maxValue);
 
                     GUILayout.EndHorizontal();
 
@@ -116,6 +117,12 @@ namespace Michsky.UI.ModernUIPack
 
                     EditorGUILayout.LabelField(new GUIContent("Speed"), customSkin.FindStyle("Text"), GUILayout.Width(120));
                     EditorGUILayout.PropertyField(speed, new GUIContent(""));
+
+                    GUILayout.EndHorizontal();
+                    GUILayout.BeginHorizontal(EditorStyles.helpBox);
+
+                    EditorGUILayout.LabelField(new GUIContent("Max Value"), customSkin.FindStyle("Text"), GUILayout.Width(120));
+                    EditorGUILayout.PropertyField(maxValue, new GUIContent(""));
 
                     GUILayout.EndHorizontal();
                     GUILayout.Space(4);
