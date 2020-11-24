@@ -40,6 +40,9 @@ public class ChangeScene : MonoBehaviour
         UnityEngine.Debug.Log("OpenNew" + 6);
         SceneManager.LoadScene(6);
     }
-
-
+    public void DataSave()
+    {
+        UnityEngine.Debug.Log("DataSave" + 7);
+        SceneManager.LoadScene(7);
+    }
 }
