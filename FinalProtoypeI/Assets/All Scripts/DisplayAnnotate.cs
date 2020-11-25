@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,4 +14,4 @@ public class DisplayAnnotate : MonoBehaviour
         theName = inputField.GetComponent<Text>().text
             textDisplay.GetComponent<Text>().text = theName;
     }
-}
+}*/

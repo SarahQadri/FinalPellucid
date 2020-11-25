@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Michsky.UI.ModernUIPack;
+//using Michsky.UI.ModernUIPack;
+using UnityEngine.EventSystems;
+using TMPro;
 
 public class SaveStuff : MonoBehaviour
 {
-    public InputField inputText;
+    public TextMeshPro inputText;
+    public GameObject input;
+   
+
+
     string tutorialText;
 
     void Start()
