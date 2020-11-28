@@ -45,4 +45,9 @@ public class ChangeScene : MonoBehaviour
         UnityEngine.Debug.Log("DataSave" + 7);
         SceneManager.LoadScene(7);
     }
+    public void FrenchDataSave()
+    {
+        UnityEngine.Debug.Log("FrenchDataSave" + 8);
+        SceneManager.LoadScene(8);
+    }
 }
