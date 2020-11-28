@@ -8,6 +8,7 @@ using System;
 public class ARTap : MonoBehaviour
 {
     public GameObject objectToPlace;
+    public GameObject objectToPlace1;
     public GameObject placementIndicator;
     //private ARSessionOrigin arOrigin;
     private ARRaycastManager aRRaycastManager;
@@ -22,23 +23,40 @@ public class ARTap : MonoBehaviour
     {
         UpdatePlacementPose();
         UpdatePlacementIndicator();
-        if (placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (placementPoseIsValid && Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            PlaceObject();
+            if (Input.touchCount == 1)
+            {
+                PlaceObject();
+            }
+            else if (Input.touchCount == 2)
+            {
+                PlaceObject1();
+            }
+            else
+            {
+                Debug.Log("HI");
+            }
+
         }
+
     }
     private void PlaceObject()
     {
         Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
     }
+    private void PlaceObject1()
+    {
+        Instantiate(objectToPlace1, placementPose.position, placementPose.rotation);
+    }
     private void UpdatePlacementIndicator()
     {
         if (placementPoseIsValid)
-    {
+        {
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
         }
-else
+        else
         {
             placementIndicator.SetActive(false);
         }
