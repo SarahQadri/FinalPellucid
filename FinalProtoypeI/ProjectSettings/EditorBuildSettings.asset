@@ -5,37 +5,34 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/LanguageSelect.unity
     guid: a90ebbcf16195664294bd1b8066eb35a
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/Main menu.unity
     guid: 0ab309acd693f4436822b091e5c6ffb5
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/Video.unity
     guid: 91287b0635f99624a8b9c136588fc5a9
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/FrenchMenu.unity
     guid: 759f798768bb1cc47aead2ec84fee833
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/FrenchAnnotate.unity
     guid: cf51132dfbae6ff40b20a7d128c709bb
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/Annotate.unity
     guid: 8d6885873e2897f40ae912ec83e31ac4
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/OldARCamera.unity
     guid: 743f9aa4b85da9b4db11b3440abc9188
-  - enabled: 1
+  - enabled: 0
     path: Assets/All Scenes/DataSave.unity
     guid: 1b0936990c98beb4fa012d7ffe4b196a
-  - enabled: 0
+  - enabled: 1
     path: Assets/All Scenes/AR Camera New.unity
     guid: ccba0e3035eb843b095140a4bb062c49
-  - enabled: 1
-    path: Assets/All Scenes/FrenchDataSave.unity
-    guid: c9e3328a212f27c4fa77b198259f07f6
   m_configObjects: {}

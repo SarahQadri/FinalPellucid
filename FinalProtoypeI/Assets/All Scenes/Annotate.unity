@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 294465790}
+      - m_Target: {fileID: 17935875}
         m_MethodName: DataSave
         m_Mode: 1
         m_Arguments:
@@ -2981,7 +2981,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 977434457}
+      - m_Target: {fileID: 17935875}
         m_MethodName: Back
         m_Mode: 1
         m_Arguments:
@@ -4695,7 +4695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: 
   data1: 
-  inputField: {fileID: 470704582}
+  inputField: {fileID: 0}
   textDisplay: {fileID: 4595703700262914683, guid: 8d2c0a455645f724085f4494a6487c3d,
     type: 3}
   textDisplay1: {fileID: 4595703700262914683, guid: 8d2c0a455645f724085f4494a6487c3d,
