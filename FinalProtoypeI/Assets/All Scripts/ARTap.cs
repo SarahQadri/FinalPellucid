@@ -37,9 +37,9 @@ public class ARTap : MonoBehaviour
             {
                 Debug.Log("HI");
             }
-
+                
         }
-
+        
     }
     private void PlaceObject()
     {
@@ -52,11 +52,11 @@ public class ARTap : MonoBehaviour
     private void UpdatePlacementIndicator()
     {
         if (placementPoseIsValid)
-        {
+    {
             placementIndicator.SetActive(true);
             placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
         }
-        else
+else
         {
             placementIndicator.SetActive(false);
         }
