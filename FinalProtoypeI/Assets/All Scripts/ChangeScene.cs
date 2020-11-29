@@ -40,9 +40,21 @@ public class ChangeScene : MonoBehaviour
         UnityEngine.Debug.Log("OpenNew" + 6);
         SceneManager.LoadScene(6);
     }
-    public void DataSave()
+    public void AR()
     {
-        UnityEngine.Debug.Log("DataSave" + 7);
+        UnityEngine.Debug.Log("ARCamera" + 7);
         SceneManager.LoadScene(7);
     }
+    public void FAQ()
+    {
+        UnityEngine.Debug.Log("FAQ" + 8);
+        SceneManager.LoadScene(8);
+    }
+    public void FrenchOpen()
+    {
+        UnityEngine.Debug.Log("FrenchOpen" + 9);
+        SceneManager.LoadScene(9);
+    }
+
+
 }
