@@ -8,9 +8,13 @@ public class HideShowLayer : MonoBehaviour
 {
     public Material mater;
     public Material mater1;
+    public Material mater2;
+    public Material mater3;
 
     public Toggle togglebtn;
     public Toggle togglebtn1;
+    public Toggle togglebtn2;
+    public Toggle togglebtn3;
 
     public void TogglebtnOn()
     {
@@ -21,6 +25,21 @@ public class HideShowLayer : MonoBehaviour
     }
 
     public void TogglebtnOn1()
+    {
+        if (togglebtn1.isOn)
+            ChangeAlphavalue(mater, 1f);
+        else
+            ChangeAlphavalue(mater, 0.01f);
+    }
+    public void TogglebtnOn2()
+    {
+        if (togglebtn.isOn)
+            ChangeAlphavalue(mater, 1f);
+        else
+            ChangeAlphavalue(mater, 0.01f);
+    }
+
+    public void TogglebtnOn3()
     {
         if (togglebtn1.isOn)
             ChangeAlphavalue(mater, 1f);
