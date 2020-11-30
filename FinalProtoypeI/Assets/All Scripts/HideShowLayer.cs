@@ -27,24 +27,24 @@ public class HideShowLayer : MonoBehaviour
     public void TogglebtnOn1()
     {
         if (togglebtn1.isOn)
-            ChangeAlphavalue(mater, 1f);
+            ChangeAlphavalue(mater1, 1f);
         else
-            ChangeAlphavalue(mater, 0.01f);
+            ChangeAlphavalue(mater1, 0.01f);
     }
     public void TogglebtnOn2()
     {
-        if (togglebtn.isOn)
-            ChangeAlphavalue(mater, 1f);
+        if (togglebtn2.isOn)
+            ChangeAlphavalue(mater2, 1f);
         else
-            ChangeAlphavalue(mater, 0.01f);
+            ChangeAlphavalue(mater2, 0.01f);
     }
 
     public void TogglebtnOn3()
     {
-        if (togglebtn1.isOn)
-            ChangeAlphavalue(mater, 1f);
+        if (togglebtn3.isOn)
+            ChangeAlphavalue(mater3, 1f);
         else
-            ChangeAlphavalue(mater, 0.01f);
+            ChangeAlphavalue(mater3, 0.01f);
     }
 
     void ChangeAlphavalue(Material mat, float alphaval)
