@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/All Scenes/DataSave.unity
     guid: 1b0936990c98beb4fa012d7ffe4b196a
-  - enabled: 0
+  - enabled: 1
     path: Assets/All Scenes/AR Camera New.unity
     guid: ccba0e3035eb843b095140a4bb062c49
   - enabled: 1

@@ -45,4 +45,14 @@ public class ChangeScene : MonoBehaviour
         UnityEngine.Debug.Log("DataSave" + 6);
         SceneManager.LoadScene(6);
     }
+    public void ARCamera()
+    {
+        UnityEngine.Debug.Log("ARCamera" +7);
+        SceneManager.LoadScene(7);
+    }
+    public void OpenProject()
+    {
+        UnityEngine.Debug.Log("OpenProject" + 8);
+        SceneManager.LoadScene(8);
+    }
 }

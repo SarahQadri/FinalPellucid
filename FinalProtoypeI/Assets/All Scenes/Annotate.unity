@@ -1919,6 +1919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339b2b07581fa904ab44c2a332e4c679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  btnClick: {fileID: 0}
+  inputUser: {fileID: 0}
 --- !u!114 &537568269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2981,8 +2983,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 17935875}
-        m_MethodName: Back
+      - m_Target: {fileID: 977434457}
+        m_MethodName: ARCamera
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
